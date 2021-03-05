@@ -7,18 +7,18 @@ Code and instructions based on https://www.geeksforgeeks.org/send-message-to-tel
 You need a `secrets.json` file, with the following contents:
 
 ```json
-{                                                                                                                              
-    "api_id": <api-id> 
+{
+    "api_id": <api-id>,
     "api_hash": <api-hash>,
     "token": <token>,
     "phone": <my-phone>,
-    "address_book": {                                                                                                          
+    "address_book": {
         <user1>: <phone-of-user1>,
         <user2>: <phone-of-user2>,
         <user3>: <phone-of-user3>,
         ...
-    }                                                                                                                          
-} 
+    }
+}
 ```
 
 The values for `<api-id>`, `<api-hash>`, and `<token>` can be obtained as follows:
