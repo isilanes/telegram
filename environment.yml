@@ -8,4 +8,4 @@ dependencies:
   - pip=21.0.1
   - pip:
       - telebot==0.0.4
-      - telethon=1.20
+      - telethon==1.20
